@@ -396,7 +396,7 @@ var Module = {
                   }
 
                   this.play = function(data) {
-                    midiName = 'in'
+                    midiName = 'in'+(new Date).getTime()
                       var raw = atob(data)
                       var array = new Uint8Array(new ArrayBuffer(raw.length))
                       for(i = 0; i < raw.length; i++) {
