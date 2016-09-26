@@ -5,7 +5,7 @@
 
 var NODEJS = 0;
 
-var EMCC = '/usr/lib/emsdk_portable/emscripten/master/emcc';
+var EMCC = 'emcc';
 
 var OPTIMIZE_FLAGS = ' -O2 ';
 
