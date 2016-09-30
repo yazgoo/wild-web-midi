@@ -69,7 +69,7 @@
     #playerbar {
       position: absolute;;
       height: 2px;
-      width: 500px;
+      width: 80%;
       background: #ccc;
       cursor: pointer;
       transition: height 0.4s ease-in;
@@ -95,7 +95,7 @@
 
     #totaltime {
       position: absolute;
-      left: 500px;
+      left: 80%;
       font-size: 12px;
     }
 
